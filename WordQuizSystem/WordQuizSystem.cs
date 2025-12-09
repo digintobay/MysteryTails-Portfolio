@@ -192,7 +192,7 @@ public class WordQuizSystem : MonoBehaviour
     {
         if (wordQuizText.text == targetSentence)
         {
-            string realAngs = Regex.Replace("FUCKTHISLIFE ", @"[A-Z]+", "♡");
+          
             Debug.Log(realAngs);
             Debug.Log("정답 a");
 
@@ -222,7 +222,7 @@ public class WordQuizSystem : MonoBehaviour
     {
         if (wordQuizText_02.text == targetSentence_02)
         {
-            string realAngs = Regex.Replace("FUCKTHISLIFE ", @"[A-Z]+", "♡");
+       
             Debug.Log(realAngs);
             Debug.Log("정답");
             Secon_WordComplete(this, EventArgs.Empty);
@@ -249,7 +249,7 @@ public class WordQuizSystem : MonoBehaviour
     {
         if (wordQuizText_03.text == targetSentence_03)
         {
-            string realAngs = Regex.Replace("FUCKTHISLIFE ", @"[A-Z]+", "♡");
+           
             Debug.Log(realAngs);
             Debug.Log("정답");
             Third_WordComplete(this, EventArgs.Empty);
